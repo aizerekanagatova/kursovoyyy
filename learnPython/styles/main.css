@@ -1,0 +1,190 @@
+main {
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+}
+.main-title {
+  /* width: 100%; */
+  display: flex;
+  height: 90vh;
+  /* padding: 50px 0 80px 0; */
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.main-title h1 {
+  font-size: 80px;
+  color: white;
+}
+
+.main-title p {
+  font-size: 20px;
+  color: white;
+  width: 100%;
+}
+
+.main-title-btn {
+  width: 500px;
+  padding: 20px;
+  background-color: rgb(247, 31, 255);
+  border: none;
+  border-radius: 9px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.main-title-btn:hover {
+  background-color: rgb(146, 30, 150);
+}
+
+.main-title-btn a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.main-cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+  background-color: rgb(47, 22, 93);
+  padding: 90px 100px;
+}
+.main-card {
+  border-top: 4px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-card p {
+  /* text-align: justify; */
+  font-size: small;
+  padding-left: 5px;
+}
+
+.main-card button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(247, 31, 255);
+  border: none;
+  border-radius: 9px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  color: white;
+}
+.card-line {
+}
+.title-icon {
+  display: flex;
+  align-items: center;
+}
+
+.main-about {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 100px;
+  background: url("	https://visme.co/blog/wp-content/uploads/2020/03/animation-software-header-wide.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-about hr {
+  color: white;
+  width: 800px;
+}
+.main-about p {
+  width: 900px;
+}
+
+.main-about h1 {
+  font-size: 60px;
+  color: rgb(75, 11, 164);
+  font-weight: 200;
+}
+
+.main-about-python {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(35, 47, 56);
+}
+
+.main-about-python-content {
+  width: 1100px;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.main-about-python-content > h1 {
+  font-size: 60px;
+  color: rgb(75, 11, 164);
+  font-weight: 200;
+}
+
+.main-about-python-content img {
+  width: 300px;
+  height: 300px;
+}
+
+.main-about-python-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.main-about-python-card > div > h1 {
+  color: rgb(138, 100, 236);
+}
+.main-about-python-card > div > p {
+  width: 300px;
+}
+
+.question {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  bottom: 10px;
+}
+
+.question a {
+  display: flex;
+  align-items: center;
+}
+
+.question a img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transform: rotateZ(-90deg);
+}

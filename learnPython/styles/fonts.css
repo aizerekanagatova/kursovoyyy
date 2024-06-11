@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'Input Sans';
+	src: url('../assets/fonts/fonnts.com-InputSans.otf') format('otf'),
+		url('../assets/fonts/fonnts.com-InputSans.otf') format('otf');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Input Sans Narrow ExtraLight';
+	src: url('../assets/fonts/InputSansNarrow-ExtraLight.woff2') format('woff2'),
+		url('../assets/fonts/InputSansNarrow-ExtraLight.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Input Sans Narrow Light';
+	src: url('../assets/fonts/InputSansNarrow-Light.woff2') format('woff2'),
+		url('../assets/fonts/InputSansNarrow-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Input Sans Narrow Regular';
+	src: url('../assets/fonts/InputSansNarrow-Regular.woff2') format('woff2'),
+		url('../assets/fonts/InputSansNarrow-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Input Sans Narrow Medium';
+	src: url('../assets/fonts/InputSansNarrow-Medium.woff2') format('woff2'),
+		url('../assets/fonts/InputSansNarrow-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Input Sans Narrow SemiBold';
+	src: url('../assets/fonts/InputSansNarrow-SemiBold.woff2') format('woff2'),
+		url('../assets/fonts/InputSansNarrow-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Input Sans Narrow Bold';
+	src: url('../assets/fonts/InputSansNarrow-Bold.woff2') format('woff2'),
+		url('../assets/fonts/InputSansNarrow-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Input Sans Narrow ExtraBold';
+	src: url('../assets/fonts/InputSansNarrow-ExtraBold.woff2') format('woff2'),
+		url('../assets/fonts/InputSansNarrow-ExtraBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
